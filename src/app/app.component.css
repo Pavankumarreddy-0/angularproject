@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+.content1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  height: 50%;
+}
+
+.content1 .image {
+  width: 50%;
+  display: block;
+  margin-left: 5%;
+  margin-right: auto;
+}
+
+.content1 .contenttext {
+  width: 50%;
+}
+
+.content1 .contenttext .p1 {
+  font-family: Romanesco;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 69px;
+  /* identical to box height */
+  letter-spacing: 0.06em;
+  color: #28853c;
+}
+
+.content1 .contenttext .p2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 70px;
+  color: #28922c;
+}
+
+.content1 .contenttext .p3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+}
+
+.content2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 50%;
+  background-image: url(../assets/backgroundimage.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), img;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), img;
+  background-image-display: block;
+  background-image-margin-left: auto;
+  background-image-margin-right: auto;
+  background-image-margin-top: 10%;
+  background-image-border-radius: 50%;
+}
+
+.content2 h5 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.content2 p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  color: #FFFFFF;
+}
+/*# sourceMappingURL=app.component.css.map */
